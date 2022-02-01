@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -11,3 +12,128 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar-brand{
+  color: rgb(34, 180, 206) !important;
+font: 30px imp !important;
+}
+
+
+/*home screen*/
+.home-con{
+  height: 90vh;
+  display: flex;
+  align-items: center;
+
+}
+.home-con .row{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+width:100%;
+margin: 0px;
+}
+.home-con .row span{
+  color: rgb(110, 150, 236);
+}
+.home-con button{
+  border: 1px solid rgb(45, 175, 226);
+  border-radius: 20px;
+  margin-top: 10px;
+  min-width: 100px;
+ 
+}
+.home-con button:hover{
+ background-color:rgb(118, 155, 255);
+ color: white;
+
+ 
+}
+.home-con .col-6{
+  text-align: center;
+
+}
+form{
+  margin-top: 30px;
+}
+/*services*/
+#ser::after{
+  position:relative;
+  content:"";
+  background-color: rgb(149, 149, 233);
+margin: 3px;
+  height:5px;
+
+  padding: 0px;
+display: block;
+}
+#ser{
+  color:blue;
+}
+.main-div{
+ min-width: 300px;
+  width: 300px;
+  height: 160px;
+  border-radius: 10px;
+ box-shadow: 0px 0px 5px;
+}
+.img-div{
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.imag{
+  width: 100px;
+  border-radius:  10px;
+  position: relative;
+  height: 100%;
+  
+}
+small{
+  font-size: 5px;
+  
+}
+span{
+  color: rgb(197, 140, 18);
+}
+.ro{
+  width: 60%;
+}
+.rro{
+  
+  width: 50%;
+}
+i{
+  cursor: pointer;
+}
+i{
+  font-size: medium;
+ 
+}
+i:hover{
+  transform: scale(1.5);
+  color: brown;
+}
+#home{
+  
+}
+.card{
+  max-width: 200px;
+  max-height: 200px;
+}
+.card-text{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/*navbar*/
+/* .im{
+animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+}
+@keyframes up-down{
+  0%{transform:translateY("10px");}
+  100%{transform: translateY("-10px");}
+  
+} */
